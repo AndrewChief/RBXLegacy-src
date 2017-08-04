@@ -106,9 +106,11 @@ namespace RBXLegacyLauncher
 			this.listBox2 = new System.Windows.Forms.ListBox();
 			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
+			this.pictureBox9 = new System.Windows.Forms.PictureBox();
+			this.pictureBox8 = new System.Windows.Forms.PictureBox();
+			this.pictureBox7 = new System.Windows.Forms.PictureBox();
+			this.pictureBox6 = new System.Windows.Forms.PictureBox();
 			this.label9 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.textBox3 = new System.Windows.Forms.TextBox();
@@ -129,53 +131,57 @@ namespace RBXLegacyLauncher
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.tabPage4.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// radioButton1
 			// 
-			this.radioButton1.Location = new System.Drawing.Point(153, 207);
+			this.radioButton1.Location = new System.Drawing.Point(227, 45);
 			this.radioButton1.Name = "radioButton1";
-			this.radioButton1.Size = new System.Drawing.Size(40, 16);
+			this.radioButton1.Size = new System.Drawing.Size(180, 16);
 			this.radioButton1.TabIndex = 34;
-			this.radioButton1.Text = "BC";
+			this.radioButton1.Text = "Builder\'s Club (BC)";
 			this.radioButton1.UseVisualStyleBackColor = true;
 			this.radioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1CheckedChanged);
 			// 
 			// radioButton2
 			// 
-			this.radioButton2.Location = new System.Drawing.Point(153, 185);
+			this.radioButton2.Location = new System.Drawing.Point(227, 66);
 			this.radioButton2.Name = "radioButton2";
-			this.radioButton2.Size = new System.Drawing.Size(50, 16);
+			this.radioButton2.Size = new System.Drawing.Size(180, 15);
 			this.radioButton2.TabIndex = 35;
-			this.radioButton2.Text = "TBC";
+			this.radioButton2.Text = "Turbo Builder\'s Club (TBC)";
 			this.radioButton2.UseVisualStyleBackColor = true;
 			this.radioButton2.CheckedChanged += new System.EventHandler(this.RadioButton2CheckedChanged);
 			// 
 			// radioButton3
 			// 
-			this.radioButton3.Location = new System.Drawing.Point(233, 185);
+			this.radioButton3.Location = new System.Drawing.Point(227, 85);
 			this.radioButton3.Name = "radioButton3";
-			this.radioButton3.Size = new System.Drawing.Size(50, 16);
+			this.radioButton3.Size = new System.Drawing.Size(180, 16);
 			this.radioButton3.TabIndex = 36;
-			this.radioButton3.Text = "OBC";
+			this.radioButton3.Text = "Outrageous Builder\'s Club (OBC)";
 			this.radioButton3.UseVisualStyleBackColor = true;
 			this.radioButton3.CheckedChanged += new System.EventHandler(this.RadioButton3CheckedChanged);
 			// 
 			// radioButton4
 			// 
 			this.radioButton4.Checked = true;
-			this.radioButton4.Location = new System.Drawing.Point(233, 207);
+			this.radioButton4.Location = new System.Drawing.Point(227, 26);
 			this.radioButton4.Name = "radioButton4";
-			this.radioButton4.Size = new System.Drawing.Size(53, 16);
+			this.radioButton4.Size = new System.Drawing.Size(180, 16);
 			this.radioButton4.TabIndex = 37;
 			this.radioButton4.TabStop = true;
-			this.radioButton4.Text = "None";
+			this.radioButton4.Text = "No Icon";
 			this.radioButton4.UseVisualStyleBackColor = true;
 			this.radioButton4.CheckedChanged += new System.EventHandler(this.RadioButton4CheckedChanged);
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(186, 166);
+			this.label1.Location = new System.Drawing.Point(287, 3);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(60, 16);
 			this.label1.TabIndex = 38;
@@ -191,7 +197,7 @@ namespace RBXLegacyLauncher
 			this.tabControl1.Location = new System.Drawing.Point(12, 12);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(455, 270);
+			this.tabControl1.Size = new System.Drawing.Size(455, 281);
 			this.tabControl1.TabIndex = 48;
 			this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
 			// 
@@ -209,7 +215,7 @@ namespace RBXLegacyLauncher
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage1.Size = new System.Drawing.Size(447, 244);
+			this.tabPage1.Size = new System.Drawing.Size(447, 255);
 			this.tabPage1.TabIndex = 1;
 			this.tabPage1.Text = "BODY";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -723,7 +729,7 @@ namespace RBXLegacyLauncher
 			this.tabPage2.Controls.Add(this.listBox4);
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
-			this.tabPage2.Size = new System.Drawing.Size(447, 244);
+			this.tabPage2.Size = new System.Drawing.Size(447, 255);
 			this.tabPage2.TabIndex = 5;
 			this.tabPage2.Text = "FACE";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -780,7 +786,7 @@ namespace RBXLegacyLauncher
 			this.tabPage3.Location = new System.Drawing.Point(4, 22);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage3.Size = new System.Drawing.Size(447, 244);
+			this.tabPage3.Size = new System.Drawing.Size(447, 255);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "HATS";
 			this.tabPage3.UseVisualStyleBackColor = true;
@@ -864,9 +870,11 @@ namespace RBXLegacyLauncher
 			// 
 			// tabPage4
 			// 
+			this.tabPage4.Controls.Add(this.pictureBox9);
+			this.tabPage4.Controls.Add(this.pictureBox8);
+			this.tabPage4.Controls.Add(this.pictureBox7);
+			this.tabPage4.Controls.Add(this.pictureBox6);
 			this.tabPage4.Controls.Add(this.label9);
-			this.tabPage4.Controls.Add(this.label8);
-			this.tabPage4.Controls.Add(this.label4);
 			this.tabPage4.Controls.Add(this.label5);
 			this.tabPage4.Controls.Add(this.textBox1);
 			this.tabPage4.Controls.Add(this.textBox3);
@@ -881,40 +889,66 @@ namespace RBXLegacyLauncher
 			this.tabPage4.Location = new System.Drawing.Point(4, 22);
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage4.Size = new System.Drawing.Size(447, 244);
+			this.tabPage4.Size = new System.Drawing.Size(447, 255);
 			this.tabPage4.TabIndex = 3;
-			this.tabPage4.Text = "CLOTHING AND ICONS";
+			this.tabPage4.Text = "MISC";
 			this.tabPage4.UseVisualStyleBackColor = true;
+			// 
+			// pictureBox9
+			// 
+			this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+			this.pictureBox9.Location = new System.Drawing.Point(413, 85);
+			this.pictureBox9.Name = "pictureBox9";
+			this.pictureBox9.Size = new System.Drawing.Size(16, 16);
+			this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox9.TabIndex = 59;
+			this.pictureBox9.TabStop = false;
+			// 
+			// pictureBox8
+			// 
+			this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+			this.pictureBox8.Location = new System.Drawing.Point(413, 66);
+			this.pictureBox8.Name = "pictureBox8";
+			this.pictureBox8.Size = new System.Drawing.Size(16, 16);
+			this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox8.TabIndex = 58;
+			this.pictureBox8.TabStop = false;
+			// 
+			// pictureBox7
+			// 
+			this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+			this.pictureBox7.Location = new System.Drawing.Point(413, 45);
+			this.pictureBox7.Name = "pictureBox7";
+			this.pictureBox7.Size = new System.Drawing.Size(16, 16);
+			this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox7.TabIndex = 57;
+			this.pictureBox7.TabStop = false;
+			// 
+			// pictureBox6
+			// 
+			this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+			this.pictureBox6.Location = new System.Drawing.Point(413, 25);
+			this.pictureBox6.Name = "pictureBox6";
+			this.pictureBox6.Size = new System.Drawing.Size(16, 16);
+			this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox6.TabIndex = 56;
+			this.pictureBox6.TabStop = false;
 			// 
 			// label9
 			// 
-			this.label9.Location = new System.Drawing.Point(195, 3);
+			this.label9.Location = new System.Drawing.Point(68, 5);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(51, 13);
 			this.label9.TabIndex = 55;
 			this.label9.Text = "Clothing";
 			// 
-			// label8
-			// 
-			this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label8.Location = new System.Drawing.Point(6, 164);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(435, 2);
-			this.label8.TabIndex = 54;
-			// 
-			// label4
-			// 
-			this.label4.ForeColor = System.Drawing.Color.Red;
-			this.label4.Location = new System.Drawing.Point(38, 145);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(362, 19);
-			this.label4.TabIndex = 53;
-			this.label4.Text = "NOTE: These clothing options will not work while playing the game offline.";
-			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(193, 22);
+			this.label5.Location = new System.Drawing.Point(66, 26);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(53, 15);
 			this.label5.TabIndex = 50;
@@ -922,25 +956,25 @@ namespace RBXLegacyLauncher
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(163, 40);
+			this.textBox1.Location = new System.Drawing.Point(6, 44);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(120, 20);
+			this.textBox1.Size = new System.Drawing.Size(187, 20);
 			this.textBox1.TabIndex = 47;
 			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.textBox1.TextChanged += new System.EventHandler(this.TextBox1TextChanged);
 			// 
 			// textBox3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(163, 122);
+			this.textBox3.Location = new System.Drawing.Point(6, 126);
 			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(120, 20);
+			this.textBox3.Size = new System.Drawing.Size(187, 20);
 			this.textBox3.TabIndex = 49;
 			this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.textBox3.TextChanged += new System.EventHandler(this.TextBox3TextChanged);
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(197, 104);
+			this.label3.Location = new System.Drawing.Point(66, 108);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(49, 15);
 			this.label3.TabIndex = 52;
@@ -948,7 +982,7 @@ namespace RBXLegacyLauncher
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(197, 63);
+			this.label2.Location = new System.Drawing.Point(66, 67);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(42, 15);
 			this.label2.TabIndex = 51;
@@ -956,18 +990,18 @@ namespace RBXLegacyLauncher
 			// 
 			// textBox2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(163, 81);
+			this.textBox2.Location = new System.Drawing.Point(6, 85);
 			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(120, 20);
+			this.textBox2.Size = new System.Drawing.Size(187, 20);
 			this.textBox2.TabIndex = 48;
 			this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.textBox2.TextChanged += new System.EventHandler(this.TextBox2TextChanged);
 			// 
 			// button4
 			// 
-			this.button4.Location = new System.Drawing.Point(200, 288);
+			this.button4.Location = new System.Drawing.Point(387, 10);
 			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(75, 23);
+			this.button4.Size = new System.Drawing.Size(75, 20);
 			this.button4.TabIndex = 49;
 			this.button4.Text = "3D Preview";
 			this.button4.UseVisualStyleBackColor = true;
@@ -978,7 +1012,7 @@ namespace RBXLegacyLauncher
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-			this.ClientSize = new System.Drawing.Size(473, 314);
+			this.ClientSize = new System.Drawing.Size(473, 307);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.tabControl1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -1001,8 +1035,16 @@ namespace RBXLegacyLauncher
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.tabPage4.ResumeLayout(false);
 			this.tabPage4.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.PictureBox pictureBox6;
+		private System.Windows.Forms.PictureBox pictureBox7;
+		private System.Windows.Forms.PictureBox pictureBox8;
+		private System.Windows.Forms.PictureBox pictureBox9;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.ListBox listBox5;
 		private System.Windows.Forms.PictureBox pictureBox5;
@@ -1021,7 +1063,6 @@ namespace RBXLegacyLauncher
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.PictureBox pictureBox3;
-		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.TabPage tabPage2;
 		private System.Windows.Forms.TabPage tabPage1;
@@ -1067,7 +1108,6 @@ namespace RBXLegacyLauncher
 		private System.Windows.Forms.Label PartSelectionLabel2;
 		private System.Windows.Forms.Button ResetColorsButton40;
 		private System.Windows.Forms.Button RandColorsButton39;
-		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.TabPage tabPage4;
 		private System.Windows.Forms.TabPage tabPage3;
 		private System.Windows.Forms.TabControl tabControl1;
